@@ -2246,7 +2246,7 @@ div#confirmacion .confirmacion_boton .btn {
 div#logo {
   width: 100vw;
   height: 100vh;
-  background: url(../images/bg9.jpg) no-repeat;
+  background: url(/images/bg9.jpg) no-repeat;
   background-size: cover;
 }
 
@@ -2257,8 +2257,8 @@ div#logo {
 }
 
 div#logo .logo-container {
-  width: 70vw; /* Aumenta el ancho del contenedor */
-  height: auto; /* Altura ajustada automáticamente según el ancho */
+  width: 70vw; /* Ajusta el ancho según tus necesidades */
+  height: auto;
   margin-bottom: 1vh;
 }
 
@@ -2315,7 +2315,6 @@ div#logo .pdf_boton .btn {
     width: 10vw;
   }
 }
-
 
 
 
