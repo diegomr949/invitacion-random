@@ -1577,7 +1577,7 @@ div#portada {
 div#portada .portada_imagen {
   width: 72vw;
   height: 75vh;
-  background: url(images/1.jpg) no-repeat;
+  background: url(images/couple-1790138_1280.jpg) no-repeat;
   background-size: cover;
   border: solid 5px;
   border-image-source: url(images/glitter.jpg);
@@ -1585,7 +1585,7 @@ div#portada .portada_imagen {
 }
 @media (min-width: 600px) {
   div#portada .portada_imagen {
-    background: url(images/1.jpg) no-repeat;
+    background: url(images/couple-1790138_1280.jpg) no-repeat;
   }
 }
 @media (min-width: 1200px) {
@@ -1888,7 +1888,7 @@ div#fiesta .banda {
 div#fiesta .fiesta_imagen {
   width: 60vw;
   height: 40vh;
-  background: url(images/6.jpg) no-repeat;
+  background: url(images/Los-decoradores-de-casamientos-mas-solicitados-decoracion-.jpg) no-repeat;
   background-size: 100% auto;
   border: solid 5px;
   border-image-source: url(images/glitter.jpg);
@@ -1896,7 +1896,7 @@ div#fiesta .fiesta_imagen {
 }
 @media (min-width: 600px) {
   div#fiesta .fiesta_imagen {
-    background: url(images/6.jpg) no-repeat;
+    background: url(images/Los-decoradores-de-casamientos-mas-solicitados-decoracion-.jpg) no-repeat;
   }
 }
 @media (min-width: 1200px) {
