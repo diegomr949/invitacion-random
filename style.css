@@ -1577,7 +1577,7 @@ div#portada {
 div#portada .portada_imagen {
   width: 72vw;
   height: 75vh;
-  background: url(images/couple-1790138_1280.jpg) no-repeat;
+  background: url(images/couple.jpg) no-repeat;
   background-size: cover;
   border: solid 5px;
   border-image-source: url(images/glitter.jpg);
@@ -1585,7 +1585,7 @@ div#portada .portada_imagen {
 }
 @media (min-width: 600px) {
   div#portada .portada_imagen {
-    background: url(images/couple-1790138_1280.jpg) no-repeat;
+    background: url(images/couple.jpg) no-repeat;
   }
 }
 @media (min-width: 1200px) {
@@ -1980,11 +1980,13 @@ div#hashtag {
   background-size: cover;
   padding: 10vh 10vw;
 }
+
 @media (min-width: 1200px) {
   div#hashtag {
     width: 35vw !important;
   }
 }
+
 div#hashtag .hashtag_banda {
   width: 100vw;
   height: 28vh;
@@ -1994,16 +1996,19 @@ div#hashtag .hashtag_banda {
   background-size: 100% 90%;
   background-position: center -2vh;
 }
+
 @media (min-width: 600px) {
   div#hashtag .hashtag_banda {
     background-position: center -5vh;
   }
 }
+
 @media (min-width: 1200px) {
   div#hashtag .hashtag_banda {
     width: 35vw !important;
   }
 }
+
 div#hashtag .hashtag_banda .hashtag_hashtag h2 {
   font-size: 3em;
   overflow: hidden;
@@ -2013,63 +2018,73 @@ div#hashtag .hashtag_banda .hashtag_hashtag h2 {
   -ms-transform: skewY(-10deg);
   transform: skewY(-10deg);
 }
+
 @media (min-width: 600px) {
   div#hashtag .hashtag_banda .hashtag_hashtag h2 {
     font-size: 5em;
     padding: 1vh 0 3vh 0;
   }
 }
+
 div#hashtag .hashtag_imagen {
   width: 65vw;
   height: 60vh;
   margin: 5vh 0 3vh 0;
-  background-image: url(/images/couple-1790138_1280.jpg);
-  /*background-size: cover;*/
+  background-image: url(images/couple.jpg); /* Cambia la propiedad background-image */
+  background-size: cover; /* Añade background-size: cover */
   border: solid 5px;
-  border-image-source: url(nule);
-  border-image-slice: 0%;
 }
+
 @media (min-width: 600px) {
   div#hashtag .hashtag_imagen {
-    background: url(/images/couple-1790138_1280.jpg) no-repeat;
+    background: url(images/couple.jpg) no-repeat;
   }
 }
+
 @media (min-width: 1200px) {
   div#hashtag .hashtag_imagen {
     width: 24vw;
   }
 }
+
 div#hashtag .hashtag_texto {
   width: 100%;
 }
+
 @media (min-width: 600px) {
   div#hashtag .hashtag_texto {
     width: 60%;
     margin-top: 1vh;
   }
 }
+
 @media (min-width: 1200px) {
   div#hashtag .hashtag_texto {
     margin-top: 1vh;
     width: 20vw;
   }
 }
+
 div#hashtag .hashtag_boton {
   width: 100%;
 }
+
 div#hashtag .hashtag_boton .btn {
   width: 55vw;
 }
+
 @media (min-width: 600px) {
   div#hashtag .hashtag_boton .btn {
     width: 40vw;
   }
 }
+
 @media (min-width: 1200px) {
   div#hashtag .hashtag_boton .btn {
     width: 15vw;
   }
 }
+
 
 /* REGALO */
 div#regalo {
@@ -2227,8 +2242,6 @@ div#confirmacion .confirmacion_boton .btn {
   }
 }
 
-
-
 /* LOGO */
 div#logo {
   width: 100vw;
@@ -2236,28 +2249,37 @@ div#logo {
   background: url(../images/bg9.jpg) no-repeat;
   background-size: cover;
 }
+
 @media (min-width: 1200px) {
   div#logo {
     width: 35vw !important;
   }
 }
-div#logo .logo {
-  width: 55vw;
-  height: 10vh;
-  background: url(nule) center bottom no-repeat;
-  background-size: contain;
+
+div#logo .logo-container {
+  width: 70vw; /* Aumenta el ancho del contenedor */
+  height: auto; /* Altura ajustada automáticamente según el ancho */
   margin-bottom: 1vh;
 }
+
+div#logo .logo-container img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
 @media (min-width: 600px) {
-  div#logo .logo {
-    width: 36vw;
+  div#logo .logo-container {
+    width: 50vw; /* Ajusta el ancho para pantallas más grandes */
   }
 }
+
 @media (min-width: 1200px) {
-  div#logo .logo {
-    width: 15vw;
+  div#logo .logo-container {
+    width: 30vw; /* Ajusta el ancho para pantallas aún más grandes */
   }
 }
+
 div#logo .icon-volver {
   width: 40px;
   height: 40px;
@@ -2266,28 +2288,36 @@ div#logo .icon-volver {
   position: absolute;
   bottom: -20vh;
 }
+
 div#logo p > a,
 div#logo p > a:hover {
   color: #485e7e;
   text-decoration: none;
   font-size: 0.95em;
 }
+
 div#logo .pdf_boton {
   margin-top: 10px;
 }
+
 div#logo .pdf_boton .btn {
   width: 40vw;
 }
+
 @media (min-width: 600px) {
   div#logo .pdf_boton .btn {
     width: 40vw;
   }
 }
+
 @media (min-width: 1200px) {
   div#logo .pdf_boton .btn {
     width: 10vw;
   }
 }
+
+
+
 
 /**
  * AddToCalendar Base CSS
